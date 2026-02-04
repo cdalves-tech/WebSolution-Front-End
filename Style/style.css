@@ -41,6 +41,7 @@ body {
 
 .menu {
     border-bottom: 1px solid rgb(231, 231, 231);
+
 }
 
 .menu .conteiner {
@@ -210,7 +211,7 @@ body {
 
 .campo #nome, #email {
     padding: 25px;
-    padding-right: 300px;
+    width: 560px;
     border: none;
     border-radius: 10px;
     font-size: 17px;
@@ -276,6 +277,7 @@ body {
 
 .formulario {
     display: flex;
+    position: relative;
     background-color: var(--branco);
     border-radius: 30px;
     padding-top: 20px;
@@ -302,4 +304,12 @@ body {
 .bi {
     margin-left: 25px;
     color: var(--branco);
+}
+
+#mensagem-status {
+    position: absolute;
+    bottom: -110px;
+    left: 540px;
+    color: red;
+    margin-bottom: 140px;
 }
